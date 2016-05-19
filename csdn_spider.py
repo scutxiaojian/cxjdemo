@@ -21,4 +21,4 @@ if __name__ == '__main__':
 	url = "http://blog.csdn.net/qq_32559763/article/details/51386131"
 	while 1:
 		download(url)
-		time.sleep(3)
+		time.sleep(3) #设置间隔时间，CSDN会检测访问量的异常情况
